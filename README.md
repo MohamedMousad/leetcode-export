@@ -30,6 +30,10 @@ Before running the script, make sure that python3 is installed in your system.
 If you prefer, you can use the Docker image to download LeetCode submissions. For more information read the
 section [Docker Image](#docker-image).
 
+### ✨ New Features Added
+- **API Resilience**: Added retry logic with exponential backoff for GraphQL queries and submission requests to prevent crashes on network timeouts or rate limits.
+- **Topic Tags Export**: Problems now extract and expose `topicTags` for categorizing solutions by LeetCode topics.
+
 ## 🏁 Getting started <a name="getting-started"></a>
 
 ### Download `leetcode-export`
