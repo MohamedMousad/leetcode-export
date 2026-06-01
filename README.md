@@ -241,7 +241,7 @@ You can fully automate your LeetCode backup to a separate GitHub repository usin
 name: Daily LeetCode Sync
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 */8 * * *"
   workflow_dispatch:
 
 jobs:
